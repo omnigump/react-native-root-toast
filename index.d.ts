@@ -29,7 +29,8 @@ declare module "react-native-root-toast"{
         accessible?: boolean,
         accessibilityLabel?: string,
         accessibilityHint?: string,
-        accessibilityRole?: string
+        accessibilityRole?: string,
+        usesAnimationNativeDrivers?: boolean
     }
 
     export interface ToastProps extends ToastOptions,ReactNative.ViewProperties{
